@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM sans';
+
+}
+
+
+/*     container     */
+.container{
+    background-color:  hsl(27, 66%, 92%);
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-family: 'DM sans';
+    height: 100vh;
+}
+
+
+
+
+/*     header    */
+.header{
+    background-color: hsl(10, 79%, 65%);
+    width: 550px;
+    height: 90px;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 70px;
+}
+.logo{
+    /* right: 230px; */
+    right: 400px;
+    position: absolute;
+    top: 90px;
+    
+}
+.amount{
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.bal{
+    font-weight: 400;
+    color: white;
+    position: relative;
+    top: 20px;
+    left: 38px;
+}
+.spending{
+    color: hsl(25, 47%, 15%);
+     font-family: 'DM sans';
+     margin-top: 30px;
+     margin-left: 18px;
+
+}
+
+
+
+
+
+
+/*      body    */
+.body{
+    background-color: hsl(33, 100%, 98%);
+    width: 550px;
+    height: 450px;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.canvas{
+    width: 420px;
+}
+
+hr{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+/* bottom right */
+
+.bottomRight{
+    /* right: 0px; */
+    position: absolute;
+    right: 380px;
+   
+}
+.per{
+    margin-left: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    /* position: absolute; */
+}
+.percent{
+    font-size: 18px;
+    font-weight: 700;
+    color:  hsl(25, 47%, 15%);    
+}
+.from{
+    color:  hsl(28, 10%, 53%);
+}
+/* Bottom Left */
+.net-amount{
+    font-size: 18px;
+    font-weight: 700;
+    color:  hsl(25, 47%, 15%);
+}
+.total-p{
+    color: hsl(28, 10%, 53%);
+}
+.bottomLeft{
+    margin-left: 30px;
+}
